@@ -1,8 +1,9 @@
 var pages = ["index.html","treninzi.html", "contact.html", "register.html", "Dokumentacija.pdf", "author.html"];
 var pageLabels = ["Početna", "Trening", "Kontakt", "Registracija","Dokumentacija", "O autoru"];
 var menu = document.getElementById("navMenu");
-var links = ["Portfolio","CSS", "JS", "Sitemap"];
+var links = ["CSS", "JS", "Sitemap"];
 var footObjs = ["Linkovi", "Meni"];
+var linkValues = ["assets/css/style.css", "assets/js/main.js", "sitemap.xml"];
 var footer = document.getElementById("foot");
 var ftCnt = document.getElementById("footCnt");
 function ispisiHeader(){
